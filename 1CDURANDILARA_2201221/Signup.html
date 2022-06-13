@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mylanguageteacher</title>
+</head>
+<body>
+    <!----------HEADER---------------->  
+    <header>   
+        <nav>
+            <ul>
+                <li><a href="Home.html">홈페이지</a></li>
+                <li><a href="Introduction.html">소개</a></li>
+                <li><a href="Signup.html"><mark>회원가입</mark></a></li>
+                <li><a href="Professors.html">강사현황</a></li>
+            </ul>
+        </nav> 
+    </header>
+    <!----------MAIN--------------->   
+    <main role="main">
+        <span style="color:rgb(24, 35, 182)"><h1>회원가입</h1></span>
+            <br>
+            <br>
+            <p>
+                <mark>아이디를 입력하시오.</mark> 
+                <br>
+                    user ID:
+                    <input type="text" name="id" maxlength="12" size="12"> 
+                    <br>
+                    <br>
+                <mark>비밀번호를 입력하시오.</mark> 
+                <br>
+                    user Password:
+                    <input type="password" name="pw" maxlength="16" size="16"> 
+                    <br>                
+            </p>
+            <p>
+                <mark>다음 중 모국어를 고르시오.</mark> 
+                <br>
+                    <input type="radio" name="selectnative1">한국어
+                    <input type="radio" name="selectnative2">터키어
+                    <input type="radio" name="selectnative3">영어
+                    <input type="radio" name="selectnative4">독일어
+            </p>
+            <p>
+                <mark>다음 중 관심 있는 언어를 고르시오.</mark> 
+                <br>
+                    <input type="radio" name="selectinterest1">한국어
+                    <input type="radio" name="selectinterest2">터키어
+                    <input type="radio" name="selectinterest3">영어
+                    <input type="radio" name="selectinterest4">독일어
+            </p>
+            <p>
+                <mark>관심 있는 언어에 대한 본인의 수준을 고르시오.</mark> 
+                <br>
+                    <input type="checkbox" name="selectlevel1">초급   
+                    <input type="checkbox" name="selectlevel2">초중급
+                    <input type="checkbox" name="selectlevel3">중급
+                    <input type="checkbox" name="selectlevel4">고급
+            </p>
+            <p>
+                <mark>테마 색상을 고르시오.</mark> 
+                <br>
+                    <input type="color" name="selectcolor1">
+            </p>
+            <p>
+                <mark>생년월일</mark> 
+                <br>
+                    <input type="date" name="birth" min="1950-01-01">
+                <br>
+            </p>
+            <p>
+            <input type="button" value="가입하기" onclick="alert('회원가입이 완료되었습니다.')">
+            </p>  
+            <br>
+            <br>  
+    </main>
+    <!---------FOOTER---------------->    
+    <footer>
+        <p>서울특별시 강남구 222-2222</p>
+        <p>2201221@kbu.ac.kr</p>
+        <p>TEL: 010-1111-2222</p>
+    </footer>
+</html>
